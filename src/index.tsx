@@ -1,17 +1,5 @@
-import React, { useState } from 'react';
-
-function Example() {
-  // 声明一个新的叫做 “count” 的 state 变量
-  const [count, setCount] = useState(0);
-
-  return (
-    <div>
-      <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)}>
-        Click me
-      </button>
-    </div>
-  );
-}
-
-export default Example;
+export { default as Demo1 } from './Demo1';
+export { default as Demo2 } from './Demo2';
+export { default as Demo3 } from './Demo3';
+export { default as Demo4 } from './Demo4';
+export { default as Demo5 } from './Demo5';
